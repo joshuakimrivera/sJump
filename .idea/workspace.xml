@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9036e6e-86e5-43fb-ad91-145b0231fd4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/controls/buttonA.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/controls/buttonA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/controls/buttonB.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/controls/buttonB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/controls/buttonLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/controls/buttonLeft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/controls/buttonRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/controls/buttonRight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/controls/buttonUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/controls/buttonUp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/controls/buttonX.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/controls/buttonX.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/controls/closeButton.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/controls/closeButton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/fonts/splash.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/fonts/splash.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/maps/retro-small.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/maps/retro-small.tmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sprites/blob.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sprites/blob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sprites/blob_dead.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sprites/blob_dead.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sprites/bomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sprites/bomb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sprites/bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sprites/bullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sprites/explosion.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sprites/explosion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sprites/frog.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sprites/frog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sprites/green_loader.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sprites/green_loader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sprites/player.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sprites/player.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/com/sillygames/killingSpree/AndroidLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/com/sillygames/sJump/AndroidLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/KillingSpree.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/gameCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/PlatformServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/PlatformServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/categories/EnemyCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/categories/EnemyCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/categories/ExplodingWeaponCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/categories/ExplodingWeaponCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/categories/LivingCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/categories/LivingCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/categories/NonExplodingWeaponCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/categories/NonExplodingWeaponCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/clientEntities/ClientArrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/clientEntities/ClientArrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/clientEntities/ClientBlob.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/clientEntities/ClientBlob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/clientEntities/ClientBomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/clientEntities/ClientBomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/clientEntities/ClientBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/clientEntities/ClientBullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/clientEntities/ClientEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/clientEntities/ClientEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/clientEntities/ClientFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/clientEntities/ClientFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/clientEntities/ClientFrog.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/clientEntities/ClientFrog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/clientEntities/ClientPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/clientEntities/ClientPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/clientEntities/ClientTestPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/clientEntities/ClientTestPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/controls/InputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/controls/InputController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/controls/onScreenControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/controls/onScreenControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/helpers/EntityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/helpers/EntityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/helpers/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/helpers/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/helpers/MyButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/helpers/MyButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/helpers/MyConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/helpers/MyConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/helpers/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/helpers/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/managers/LevelLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/LevelLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/managers/WorldBodyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/WorldBodyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/managers/WorldManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/WorldManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/managers/WorldRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/WorldRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/managers/physics/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/physics/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/managers/physics/CollisionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/physics/CollisionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/managers/physics/Ray.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/physics/Ray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/managers/physics/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/physics/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/managers/physics/WorldDebugRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/physics/WorldDebugRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/ControlsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/ControlsSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/NetworkRegisterer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/NetworkRegisterer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/StateProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/StateProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/messages/AudioMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/messages/AudioMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/messages/ClientDetailsMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/messages/ClientDetailsMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/messages/ConnectMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/messages/ConnectMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/messages/ControlsMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/messages/ControlsMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/messages/EntityState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/messages/EntityState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/messages/GameStateMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/messages/GameStateMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/messages/PlayerNamesMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/messages/PlayerNamesMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/networking/messages/ServerStatusMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/messages/ServerStatusMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/pool/AssetLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/pool/AssetLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/pool/EntityPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/pool/EntityPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/pool/MessageObjectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/pool/MessageObjectPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/pool/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/pool/Pool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/pool/Poolable.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/pool/Poolable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/renderers/HUDRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/renderers/HUDRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/screens/AbstractScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/AbstractScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/screens/ClientDiscoveryScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/ClientDiscoveryScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/screens/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/screens/LobbyScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/LobbyScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/screens/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/MainMenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/screens/OptionsScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/OptionsScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/screens/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/screens/settings/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/settings/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/serverEntities/ServerArrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerArrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/serverEntities/ServerBlob.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerBlob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/serverEntities/ServerBomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerBomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/serverEntities/ServerBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerBullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/serverEntities/ServerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/serverEntities/ServerFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/serverEntities/ServerFrog.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerFrog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/serverEntities/ServerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/sound/SFXPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sillygames/sJump/sound/SFXPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/com/sillygames/killingSpree/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/com/sillygames/sJump/desktop/DesktopLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/com/sillygames/killingSpree/desktop/DesktopServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/com/sillygames/sJump/desktop/DesktopServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1581083633">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.94" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="4" />
+          <entry key="java" value="37" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="4" />
+          <entry key="JAVA" value="37" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="25" />
+          <entry key="gradle" value="26" />
+          <entry key="java" value="695" />
+          <entry key="xml" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="26" />
+          <entry key="JAVA" value="695" />
+          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="XML" value="15" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/MainMenuScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/LobbyScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2466">
+              <caret line="157" column="19" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/SplashScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerArrow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerBlob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/OptionsScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/AbstractScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/ClientDiscoveryScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/GameScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/android/build.gradle" />
+        <option value="$PROJECT_DIR$/core/build.gradle" />
+        <option value="$PROJECT_DIR$/core/src/com/sillygames/killingSpree/screens/MainMenuScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/GameScreen.java" />
+        <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/LobbyScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/OptionsScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/ClientDiscoveryScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/MainMenuScreen.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="clientEntities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="controls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="managers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="managers" type="462c0819:PsiDirectoryNode" />
+              <item name="physics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="pool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="renderers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="serverEntities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="sJump" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="desktop" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="desktop" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="desktop" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killingspree" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="Project" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="3a32a5ce7d2b" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Josh/killingspree" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.android">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="android" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="desktop" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sillygames.sJump.desktop.DesktopLauncher" />
+      <module name="desktop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/android/assets" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.android" />
+      <item itemvalue="Application.desktop" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9036e6e-86e5-43fb-ad91-145b0231fd4a" name="Default Changelist" comment="" />
+      <created>1549544101498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549544101498</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23240939" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.21258135" />
+      <window_info anchor="bottom" id="Logcat" order="6" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.15401301" />
+      <window_info anchor="bottom" id="Debug" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/controls/onScreenControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/controls/InputController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/helpers/MyButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/renderers/HUDRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/LevelLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/WorldBodyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/StateProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1842">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/physics/WorldDebugRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/WorldManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1266">
+          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/physics/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/networking/messages/GameStateMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/sillygames/sJump/desktop/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/settings/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/managers/WorldRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/LobbyScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2466">
+          <caret line="157" column="19" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerArrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerBlob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/serverEntities/ServerPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/AbstractScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/GameScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/OptionsScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/ClientDiscoveryScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sillygames/sJump/screens/MainMenuScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 22 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

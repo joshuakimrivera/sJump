@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="15" tileheight="15" infinite="0" nextlayerid="6" nextobjectid="13">
+ <tileset firstgid="1" name="megacommando" tilewidth="15" tileheight="15" spacing="1" tilecount="5120" columns="64">
+  <image source="megacommando.png" width="1024" height="1280"/>
+ </tileset>
+ <tileset firstgid="5121" name="shadow" tilewidth="15" tileheight="15" spacing="1" tilecount="1" columns="1">
+  <image source="shadow.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="5122" name="black" tilewidth="15" tileheight="15" spacing="1" tilecount="1" columns="1">
+  <image source="black.png" width="21" height="21"/>
+ </tileset>
+ <tileset firstgid="5123" name="black" tilewidth="15" tileheight="15" tilecount="1" columns="1">
+  <image source="black.png" width="21" height="21"/>
+ </tileset>
+ <layer id="1" name="black" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjEmFgYBrFo3gUj+JRPIpH8SgexVTDAALOM5E=
+  </data>
+ </layer>
+ <layer id="2" name="background" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzVlG0KwjAMhovCtDIFL+XHTuFd/OMVvI4/RNBDuZcRfBfbbd3aig+EJZTkaSHMGD8P23HYw5Dew7xdv2bfvbciLJdemSXslEt70ScBquXnvC/nXsy6ln6X9vKdwWURlvveO8Qbg3/w5uBZ79fdNgH2Hfs2FpkpHnayOwUuT2qndksOpvybxviFnF7tzO0+bvJ4xcM1uxF2a06xnezxkfrt51W9X+smxxd1bLfLkcrLvaHeKfzKy7gcbwR/TRs=
+  </data>
+ </layer>
+ <layer id="3" name="shadow" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjFGFgYBzFo3gUj+JRPIpH8SgexVTDAAD5MTk=
+  </data>
+ </layer>
+ <layer id="4" name="terrain" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzz52Rg8EfDAUCMDPywqMGFidU7CkYBLcB1Xvx4sJk70kArKwNDGyv97T0KtPMYDey9Box7RmbK8DUK089iPgYGcSLxEj7q+Hu4AWx5+gIH9cw/x4HdDkYRTHyMiuXJMYgdDVgwyfaGczMwREBxJDf97AXadSACioFuOEAre48LkoaJsRcA4F5MtA==
+  </data>
+ </layer>
+ <objectgroup id="5" name="collision">
+  <object id="1" x="360" y="225" width="90" height="75"/>
+  <object id="2" x="0" y="225" width="90" height="75"/>
+  <object id="3" x="195" y="255" width="60" height="30"/>
+  <object id="4" x="0" y="0" width="90" height="15"/>
+  <object id="5" x="360" y="0" width="90" height="15"/>
+  <object id="6" x="90" y="165" width="270" height="15"/>
+  <object id="7" x="135" y="180" width="180" height="15"/>
+  <object id="8" x="0" y="90" width="120" height="15"/>
+  <object id="9" x="330" y="90" width="120" height="15"/>
+  <object id="10" x="210" y="135" width="30" height="30"/>
+  <object id="11" x="135" y="0" width="180" height="15"/>
+  <object id="12" x="135" y="285" width="180" height="15"/>
+ </objectgroup>
+</map>

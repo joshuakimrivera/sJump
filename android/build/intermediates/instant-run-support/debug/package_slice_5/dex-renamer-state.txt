@@ -1,0 +1,4 @@
+#Fri Feb 08 06:54:12 SGT 2019
+base.0=C\:\\Users\\Joshua\\Documents\\copy\\killingspree\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
+renamed.0=classes.dex
+file.0=C\:\\Users\\Joshua\\Documents\\copy\\killingspree\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex
