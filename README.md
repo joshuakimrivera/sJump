@@ -1,6 +1,6 @@
 # sJump Android LAN Game
 ---
-Powered by: libgdx & KroNet
+Powered by: libgdx & KryoNet
 ---
 ### Developers:
 ### Joshua Kim Rivera - joshuakimrivera@gmail.com
